@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+
+    <LinearLayout android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:gravity="center_horizontal"
+	        android:orientation="vertical">
+	        <LinearLayout android:layout_width="150dp"
+	            android:layout_height="30dp"
+	            android:gravity="center_vertical"
+	            android:layout_marginTop="30dp">
+	            <ImageView android:id="@+id/iv_my_list"
+	                android:layout_width="20dp"
+	                android:layout_height="20dp"
+	                android:layout_marginRight="5dp"
+	                android:background="@drawable/list_selector"/>
+	            <TextView android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="@string/my_list"
+	                android:textColor="@color/color_white"
+	                android:textSize="@dimen/font_content_size"/>
+	        </LinearLayout>
+	        
+	        <LinearLayout android:layout_width="150dp"
+	            android:layout_height="30dp"
+	            android:gravity="center_vertical"
+	            android:layout_marginTop="10dp">
+	            <ImageView android:id="@+id/iv_singer_list"
+	                android:layout_width="20dp"
+	                android:layout_height="20dp"
+	                android:layout_marginRight="5dp"
+	                android:layout_marginBottom="4dp"
+	                android:background="@drawable/list_selector_n"/>
+	            <TextView android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="@string/singer_list"
+	                android:textColor="@color/color_white"
+	                android:textSize="@dimen/font_content_size"/>
+	        </LinearLayout>
+	        
+	        <LinearLayout android:layout_width="150dp"
+	            android:layout_height="30dp"
+	            android:gravity="center_vertical"
+	            android:layout_marginTop="10dp">
+	            <ImageView android:id="@+id/iv_album_list"
+	                android:layout_width="20dp"
+	                android:layout_height="20dp"
+	                android:layout_marginRight="5dp"
+	                android:layout_marginBottom="4dp"
+	                android:background="@drawable/list_selector_n"/>
+	            <TextView android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="@string/album_list"
+	                android:textColor="@color/color_white"
+	                android:textSize="@dimen/font_content_size"/>
+	        </LinearLayout>
+	        
+	        <LinearLayout android:layout_width="150dp"
+	            android:layout_height="30dp"
+	            android:gravity="center_vertical"
+	            android:layout_marginTop="10dp">
+	            <ImageView android:id="@+id/iv_favorite_list"
+	                android:layout_width="20dp"
+	                android:layout_height="20dp"
+	                android:layout_marginRight="5dp"
+	                android:layout_marginBottom="4dp"
+	                android:background="@drawable/list_selector_n"/>
+	            <TextView android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="@string/favorite_list"
+	                android:textColor="@color/color_white"
+	                android:textSize="@dimen/font_content_size"/>
+	        </LinearLayout>
+	 </LinearLayout>
+	        
+</LinearLayout>

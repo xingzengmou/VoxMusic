@@ -17,7 +17,7 @@ public class VoxMusicMainActivity extends Activity {
 	
 	private void setBackgroundDrawable() {
 		WallpaperManager wm = WallpaperManager.getInstance(this);
-		LinearLayout lyGBG = (LinearLayout) this.findViewById(R.id.gbg);
+		LinearLayout lyGBG = (LinearLayout) this.findViewById(R.id.ly_parent);
 		lyGBG.setBackgroundDrawable(wm.getDrawable());
 	}
 
